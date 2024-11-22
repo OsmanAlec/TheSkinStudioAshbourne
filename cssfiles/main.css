@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap');
+
+
+.contact {
+    font-family: 'PT Serif', sans-serif;
+    color:#E1A730;
+}
+
+.contact:hover {
+    color: #DDC379;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.title {
+    background-color: #0E0737;
+    overflow: hidden;
+    width:100%;
+    font-family: 'PT Serif', sans-serif;
+    padding: 20px;
+    color: #E1A730;
+}
+
+.fixed-bottom a {
+    display: block; /* or inline-block */
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top:10px;
+}
+
+.big-button {
+    font-family: 'PT Serif', sans-serif;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#0E0737;
+    font-size: 24px;
+    color: #E1A730;
+    background-color: #0E0737;
+    height: 70px;
+    width: 140px;
+}
+
+.big-button:hover {
+    background-color:#E1A730;
+    color: #0E0737;
+}
+
+.my-button {
+    color: #E1A730;
+    background-color: #0E0737;
+}
+
+.my-button:hover,
+.my-button:focus {
+    background-color:#E1A730;
+    color: #0E0737;
+}
+
+
+.infosection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fullscreen {
+    min-height: 35vh;
+    object-fit: contain;
+}
+
+body {
+    background-color:#f7f7ea;
+    overflow-x: hidden;
+}
+
+.carousel-images {
+    width: 100%;
+    border-style: none;
+    border-radius: 0;
+    height: 80%;
+}
+
+br {
+    display: block;
+    margin: 10px 0;
+}
+
+.paragraphOne {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+section {
+    background-color:#f7f7ea;
+    display:flex;
+}
+
+
+.homepageimages {
+    object-fit:cover;
+    flex:1;
+    height: auto;
+    width: 100%;
+}
+  
+.navbar-toggler {
+    border-color:#DDC379;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 205, 0, 9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.HomepageTitles {
+    text-align: center;
+    font-weight:normal;
+    font-size: 50px;
+    font-family: 'PT Serif', sans-serif;
+    margin: 5px 0 20px 0;
+    padding: 5px 0 10px 0;
+}
+
+.TreatmentTitles {
+    text-align: center;
+    font-weight:normal;
+    font-size: 50px;
+    font-family: 'PT Serif', sans-serif;
+    margin: 5px 0 20px 0;
+    padding: 5px 0 10px 0;
+    background-color:#0E0737;
+    color:#E1A730;
+}
+
+.fullimage {
+    width:100%;
+    height: auto;
+    object-fit:cover;
+    flex:1;
+    position:static;
+}
+
+#home_body {
+    background-color: #e8e8e2;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #0E0737;
+    overflow: hidden;
+    margin: -10px 0 0 0;
+    width:100%;
+}
+
+.navbar a {
+    font-family: 'PT Serif', sans-serif;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:link {
+    color: #DDC379;
+}
+
+.navbar a:visited {
+    color: #E1A730;
+}
+
+.navbar a:hover {
+    color: #1E8A8E;
+}
+
+footer {
+    background-color: #0E0737; 
+    color: #E1A730;
+    text-align: center;
+    padding: 5px;
+}
+
+.footernavHeader {
+    color: #E1A730;
+    text-align: left;
+    font-family: 'PT Serif', sans-serif;
+    font-size: 24px;
+}
+
+.footernav {
+    color: #E1A730;
+    text-align: left;
+    font-family: 'PT Serif', sans-serif;
+    font-size: 16px;
+}
+
+.footernav:hover {
+    text-decoration-color: #DDC379;
+    color: #DDC379;
+}

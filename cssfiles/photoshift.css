@@ -1,0 +1,36 @@
+.AlumierMDinitial {
+    background-image: url("../Images/AlumierMDclick1.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.Dibiinitial {
+    background-image: url("../Images/dibiinitial.jpg");
+    background-size: cover;
+    display: inline-block;
+}
+
+.Bookinitial {
+    background-image: url("../Images/Bookclick2.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.Giftinitial {
+    background-image: url("../Images/Giftclick2.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+.clickhover {
+    position: absolute;
+    transition: opacity 2s;
+}
+
+.clickhover {
+    opacity: 0;
+}
+
+.clickhover:hover {
+    opacity: 1;
+}
